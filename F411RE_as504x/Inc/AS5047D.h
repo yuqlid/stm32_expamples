@@ -36,7 +36,7 @@
 #define AS4047D_WR 0x3FFF    // bit 14 = "0" is Write
 
 #define AS4047D_CS1_Port GPIOA
-#define AS4047D_CS1_Pin GPIO_PIN_4
+#define AS4047D_CS1_Pin GPIO_PIN_1
 
 #define AS4047D_CS2_Port GPIOC
 #define AS4047D_CS2_Pin GPIO_PIN_6
