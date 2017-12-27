@@ -32,7 +32,7 @@ void AS5047D_Write(GPIO_TypeDef* CS_GPIO_Port, uint16_t CS_GPIO_Pin, uint16_t ad
 
 	HAL_Delay(1);
 
-	if (HAL_SPI_Transmit(&hspi3, (uint8_t*) &address, 2, 100) != HAL_OK)
+	if (HAL_SPI_Transmit(&hspi3, (uint8_t*) &address, 1, 100) != HAL_OK)
 	{
 		Error_Handler();
 	}
@@ -48,7 +48,7 @@ void AS5047D_Write(GPIO_TypeDef* CS_GPIO_Port, uint16_t CS_GPIO_Pin, uint16_t ad
 
 	HAL_Delay(1);
 
-	if (HAL_SPI_Transmit(&hspi3, (uint8_t*) &data, 2, 100) != HAL_OK)
+	if (HAL_SPI_Transmit(&hspi3, (uint8_t*) &data, 1, 100) != HAL_OK)
 	{
 		Error_Handler();
 	}
