@@ -73,11 +73,12 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="fr.ac6.managedbuild.config.gnu.cross.exe.debug.719557722.413722195" name="AS5048A.h" rcbsApplicability="disable" resourcePath="Inc/AS5048A.h" toolsToInvoke=""/>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
+						<entry excluding="AS5048A.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
+						<entry excluding="AS5048A.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -181,7 +182,7 @@
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Debug">
-			<resource resourceType="PROJECT" workspacePath="as504x"/>
+			<resource resourceType="PROJECT" workspacePath="/as504x"/>
 		</configuration>
 		<configuration configurationName="Release"/>
 	</storageModule>

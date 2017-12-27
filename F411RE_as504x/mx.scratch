@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
-<ProjectName>E:\kusakabe\workspace_stm32\as504x\\as504x</ProjectName>
+<ProjectName>E:\kusakabe\stm32_expamples\F411RE_as504x\\F411RE_as504x</ProjectName>
 <CMSIS>..\Drivers\CMSIS</CMSIS>
 <HAL_Driver>C:\Users\kusakabe\STM32Cube\Repository\STM32Cube_FW_F4_V1.18.0\Drivers\CMSIS</HAL_Driver>
 
@@ -22,7 +22,7 @@
 
 <configs>
   <config>
-    <name>as504x</name>				
+    <name>F411RE_as504x</name>				
     <device>STM32F411RETx</device>		 
     <heapSize>0x200</heapSize>
     <stackSize>0x400</stackSize>

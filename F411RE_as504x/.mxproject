@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=E:/kusakabe/workspace_stm32/as504x/Inc
+HeaderPath=E:/kusakabe/stm32_expamples/F411RE_as504x/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;gpio.h;spi.h;usart.h;
-SourcePath=E:/kusakabe/workspace_stm32/as504x/Src
+SourcePath=E:/kusakabe/stm32_expamples/F411RE_as504x/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;gpio.c;spi.c;usart.c;
 
 [PreviousLibFiles]
